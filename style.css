@@ -94,24 +94,34 @@ section {
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 2;
 }
 
 #reality {
     position: absolute;
     right: 0;
     bottom: 150px;
+    z-index: 4;
 }
 #mind{
     position: fixed;
-    right: 0vw;
+    right: 0;
+    
     
 }
 
-#time{position: fixed;
+#time{
+    position: fixed;
     right: 0;
-    top: 0;}
+    top: 0;
+    z-index: 3;
+}
     h1{
         position: sticky;
         top: 0;
         z-index: 1;
     }
+h2{
+    position:sticky;
+    top: 65px;
+}
